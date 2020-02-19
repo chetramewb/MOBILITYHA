@@ -149,12 +149,14 @@ header.clicked .nav-modal .blob{
 	border-radius: 0px;
 }
 
-nav{
+nav {
 	position: fixed;
-	left: 20%;
+	left: 50%;
 	top: 30%;
 	color: white;
+	transform: translateX(-50%);
 }
+
 nav a {
 	color: white;
 	font-size: 20px;
