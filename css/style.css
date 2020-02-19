@@ -129,19 +129,20 @@ header.clicked .nav-modal{
 	pointer-events: initial;
 }
 
-.nav-modal .blob{
+.nav-modal .blob {
 	display: block;
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
 	margin: 0 auto;
-	background-color: #0b253e;
+	background-color: #4ab7c3;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
 	-webkit-transform: translateY(-50%);
 	transition: all .3s ease-in;
 }
+
 header.clicked .nav-modal .blob{
 	width: 100vw;
 	height: 100vh;
@@ -179,7 +180,7 @@ nav{
 }
 
 .nav-modal ul li a:hover {
-	color: #4ab7c3;
+	color: #231f20;
 	text-decoration: none;
 }
 header.clicked nav{
@@ -537,7 +538,7 @@ button a {
 }
 
  .N-img3 h2 {
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 45px;
 	color: white;
 	font-weight: normal;
