@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Gidole';
+    src: url('Gidole-Regular.eot');
+    src: local('Gidole Regular'), local('Gidole-Regular'),
+        url('Gidole-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Gidole-Regular.woff2') format('woff2'),
+        url('Gidole-Regular.woff') format('woff'),
+        url('Gidole-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
