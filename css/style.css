@@ -646,9 +646,8 @@ button a {
 	display: block;
 	overflow: hidden;
 	background: #f6fcfc;
-	padding: 50px 0px;
+	padding: 50px 0px 0px;
 }
-
 
 .control-heading span {
 	font-size: 32px;
@@ -801,3 +800,179 @@ footer {
 footer ul li a:hover {
 	color: #4ab7c3;
 }
+
+
+
+@media only screen and (max-width: 1440px) {
+	.N-img1 h2 {
+	font-size: 28px;
+	}
+
+	.N-img2 h2 {
+		font-size: 28px;
+	}
+	.N-img3 h2 {
+		font-size: 24px;
+	}
+
+	.control-heading h1 {
+	 font-size: 40.87px;
+	}
+	#control button {
+		margin-bottom: 26px !important;
+	}
+
+}
+
+
+
+
+@media only screen and (max-width: 1403px) {
+	.banner-heading h1 {
+		font-size: 52.81px;
+		width: 56%;
+	}
+
+	#banner {
+		background-position: 60% 100%;
+	}
+
+}
+
+
+@media only screen and (max-width: 1230px) {
+	#banner {
+		background-position: 100% 100%;
+	}
+
+	.banner-heading h1 {
+		font-size: 52.81px;
+		width: 65%;
+	}
+
+	.control-heading h1 {
+		font-size: 32.87px;
+	}
+
+}
+
+@media only screen and (max-width: 1199px) {
+	.banner-heading h1 {
+		font-size: 52.81px;
+		width: 66%;
+	}
+
+	.N-img3 h2 {
+		font-size: 20px;
+	}
+
+	.control-img-heading img {
+		max-width: 100%;
+		min-height: 100%;
+		width: 100%;
+		height: 100%;
+	}
+	.container-fluid {
+		width: 100%;
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 1170px;
+	}
+
+	.N-img2 h2 {
+		font-size: 22px;
+	}
+
+	.N-img3 h2 {
+		font-size: 17px;
+	}
+
+	.footer-logo p {
+		font-size: 16px;	 
+	}
+	.address h5 {
+	font-size: 16px;
+	}
+	.footer-menu li a {
+		font-size: 16px;
+	}
+	.two-social-icon img {
+		width: 30px;
+		height: 30px;
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.banner-heading h1 {
+		font-size: 52.81px;
+		width: 90%;
+	}
+	.control-heading span {
+	font-size: 28px;
+	}
+	.control-heading h1 {
+		font-size: 28.87px;
+	}
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	.logo img {
+		width: unset;
+	}
+	.banner-heading h1 {
+		font-size: 30.81px;
+		width: 100%;
+	}
+	.Mobility-img-heading {
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	#control {
+		padding: 0px 0px 0px;
+	}
+}
+
+@media only screen and (max-width: 575px) {
+
+	.logo img {
+		width: 100%;
+		max-width: 260px;
+		min-height: 85px;
+		height: 100%;
+	}
+
+	.banner-heading h2 {
+		font-size: 24.13px;
+	}
+	.head .burger {
+	 
+		padding: 0px;
+		 
+	}
+	.banner-heading h1 {
+		font-size: 24.81px;
+		width: 100%;
+		line-height: 40.81px;
+	}
+	.banner-heading h2 {
+		line-height: 24.123px;	 
+	}
+}
+
+
+
+
+@media only screen and (max-width: 380px) {
+	.logo img {
+		width: 100%;
+		max-width: 190px;
+		min-height: 80px;
+		height: 100%;
+	}
+}
+
